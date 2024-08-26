@@ -2,7 +2,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 16px;
+    font-size: 10px;
     border: 1px solid black;
     box-shadow: rgba(0, 0, 0, 0.55) 0px 2px 9px;
     padding-left: 30px;
@@ -10,7 +10,37 @@
 
 .userIcon{
     position: absolute;
-    top: 10px; /* adjust as needed */
+    top: 8px; /* adjust as needed */
     left: 10px; /* adjust as needed */
     z-index: 5;
 }
+
+@media (min-width: 576px) {
+    .contactNumberInput{
+        font-size: 12px;
+    }
+   }
+   
+   @media (min-width: 768px) {
+    .contactNumberInput{
+        font-size: 14px;
+    }
+   }
+   
+   @media (min-width: 992px) {
+    .contactNumberInput{
+        font-size: 16px;
+    }
+    .userIcon{
+        top: 12px;
+        left: 10px;
+    }
+   }
+ 
+   @media (min-width: 1200px) {
+
+   }
+   
+   @media (min-width: 1400px) {
+   
+   }

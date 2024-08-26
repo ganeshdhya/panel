@@ -1,0 +1,76 @@
+.filerSpanTab a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.filterSpan{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8px;
+    color: white;
+}
+
+.filterTabCol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filerIconTab button{
+    background-color: transparent;
+    border: none;
+}
+
+.filterIconCol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonText{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+}
+
+@media (min-width: 576px) {
+    .filterTabCol{
+     justify-content: flex-start;
+    }
+    .filterIconCol{
+     justify-content: flex-end;
+    }
+    .buttonText{
+        font-size: 14px; 
+    }
+    .filerSpanTab a{
+        font-size: 14px;
+    }
+   }
+   
+   @media (min-width: 768px) {
+    .buttonText{
+        font-size: 16px; 
+    }
+    .filerSpanTab a{
+        font-size: 16px;
+    }
+   }
+   
+   @media (min-width: 992px) {
+
+   }
+ 
+   @media (min-width: 1200px) {
+  
+   }
+   
+   @media (min-width: 1400px) {
+    
+   }
